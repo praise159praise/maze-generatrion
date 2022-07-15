@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(52,51, 51);
+        }
+        canvas{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 10px 10px  20px rgba(0, 0, 0, 0.397);
+            border-radius: 10px;
+            border: 10px solid rgb(255, 229, 229);
+        }
+        .heading{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 10px 10px  20px rgba(0, 0, 0, 0.164);
+            padding: 10px 15px ;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 100px;
+            font-family: Montserrat;
+            font-size: 18px;
+            color: black;
+            text-transform: uppercase;
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
+    <header class="heading">Random Maze Generator</header>
     <script src="./p5.js"></script>
     <script src="./script.js"></script>
 </body>
